@@ -1,0 +1,29 @@
+body {
+    background-color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color:slategray;
+    text-align: center;
+    font-weight: bold;
+    border-style: groove;
+    border-width: medium;
+    border-radius: 5px;
+}
+h2 {
+    color:slategray;
+    text-shadow:2px 2px 4px aqua;
+}
+h4 {
+    color:slategray;
+    
+}
+ul {
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+ol {
+    text-align: justify;
+    margin-right: 400px;
+}
