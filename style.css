@@ -1,11 +1,15 @@
 body {
-    background-color: ivory;
+
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-image: url(ferns.png);
+    background-size: 2000px 700px;
+    background-color: ivory;
 }
 
 h1 {
-    color: #381A6A;
+    color: azure;
+    text-shadow: 2px 2px 4px orangered;
     text-align: center;
     font-weight: bold;
     border-style: groove;
@@ -14,7 +18,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(13, 68, 123);
+    color: azure;
     text-shadow: 1px 1px 3px orange;
 }
 
@@ -24,7 +28,10 @@ h3 {
 
 h4 {
     color: rgb(13, 68, 123);
+}
 
+footer {
+    color: aliceblue;
 }
 
 ul.myUl {
@@ -55,7 +62,7 @@ li {
     width: 700px;
     padding: 5px;
     margin: auto;
-    background-color: blanchedalmond;
+    background-color: azure;
 }
 
 ul.TOC {
@@ -79,4 +86,9 @@ li a {
     color: black;
     text-align: center;
     border-bottom: 1px solid black;
+}
+
+#myNote {
+    color: whitesmoke;
+    text-emphasis: bold;
 }
