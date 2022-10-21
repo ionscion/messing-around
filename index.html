@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
     <title>Recipes</title>
 </head>
 
@@ -49,6 +48,18 @@
             <li>Proofing Basket</li>
             <li>Large (3 Qt) Cast Iron pot</li>
         </ul>
+    </div>
+    <p></p> 
+    <button id="myBtn">Metric Converter</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Need help converting grams to pounds?</p>
+            <label>Amount in Grams:</label>
+            <input type="number" id="submission">
+            <button id="submit" onclick="poundconvert()">CONVERT!</button>
+            <p id="output"></p>
+        </div>
     </div>
     <p>
         <i class="fa-solid fa-bread-slice"></i>
@@ -117,6 +128,7 @@
             parchment and place it all in the pot at once.</p>
         <p>Experiment with different types of flour. Different brands have different attributes</p>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 <footer>
