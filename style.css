@@ -134,3 +134,8 @@ label {
     cursor: pointer;
 }
 
+#output {
+    font-size: 12pt;
+    color: green;
+    text-decoration: underline;
+}
