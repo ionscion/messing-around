@@ -1,10 +1,7 @@
 /*window.alert ("Warning: Entering Bread Zone");*/
 
-var x = 10;
-var y = 15;
-var Z = x + y;
-var pounds = 0.00220462;
-var entry = id="submission";
+//var pounds = 0.00220462;
+var entry = document.getElementById("submission");
 
 /*modal stuff*/
 
@@ -31,11 +28,17 @@ window.onclick = function(event) {
 
 function myFunction() {
     document.getElementById("myNote").innerHTML = "Working with a yeast starter is hard!";
-    document.getElementById("jsNote").innerHTML = "The value of random number plus Z is " + Z;
-
 }
 
-function poundconvert() {
+function poundconvert(pounds,entry) {
     return entry * pounds;
 }
-document.getElementById("output").innerHTML = poundconvert();
+
+//what is the => in this case? suggestion by vs
+submit.onclick = () => {
+   const pounds = 0.00220462;
+   const entryValue = Number(entry.value);
+   const result = poundconvert(pounds,entryValue);
+
+   output.innerHTML = result + " Pounds!";
+}
