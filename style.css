@@ -2,7 +2,7 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: url(colors-shapes.jpeg);
+    background-image: url(assets/colors-shapes.jpeg);
     background-size: contain;
     
 }
@@ -100,7 +100,9 @@ li a {
 
 #myNote {
     color: #11F6EC;
-    text-emphasis: bold;
+    font-weight: bold;
+    background-color: #888;
+    
 }
 
 label {
@@ -148,4 +150,16 @@ label {
     font-size: 14pt;
     color: black;
     text-decoration: underline;
+}
+
+.icon {
+    color: azure;
+}
+
+.centerText {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+   justify-content: center;
 }
