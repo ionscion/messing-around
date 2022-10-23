@@ -2,8 +2,8 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: url(background-circle.jpeg);
-    background-repeat: repeat;
+    background-image: url(colors-shapes.jpeg);
+    background-size: contain;
     
 }
 
@@ -33,7 +33,7 @@ h4 {
 }
 
 footer {
-    color:orangered;
+    color:black;
 }
 
 ul.myUl {
@@ -50,10 +50,10 @@ li {
 }
 
 .myDiv {
-    border: 5px groove darkgray;
+    border: 5px inset darkgray;
     width: 500px;
     padding: 5px;
-    background-color: azure;
+    background-color: #F6DDB0;
     text-align: center;
     margin: auto;
 
@@ -64,7 +64,7 @@ li {
     width: 700px;
     padding: 5px;
     margin: auto;
-    background-color: azure;
+    background-color: #F6DDB0;
 }
 
 .noteDiv {
@@ -72,7 +72,7 @@ li {
         width: 200px;
         padding: 2px;
         margin: auto;
-        background-color: azure;
+        background-color: #F6DDB0;
 }
 
 ul.TOC {
@@ -99,7 +99,7 @@ li a {
 }
 
 #myNote {
-    color: rgba(220, 106, 13, 0.995);
+    color: #11F6EC;
     text-emphasis: bold;
 }
 
@@ -122,7 +122,7 @@ label {
 
 /*modal box content*/
 .modal-content {
-    background-color: #fefefe;
+    background-color: #F6DDB0;
     margin: 15% auto;
     padding: 20px;
     border: 3px solid #888;
@@ -145,7 +145,7 @@ label {
 }
 
 #output {
-    font-size: 12pt;
-    color: green;
+    font-size: 14pt;
+    color: black;
     text-decoration: underline;
 }
