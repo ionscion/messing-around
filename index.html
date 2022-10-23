@@ -10,31 +10,32 @@
     <title>Recipes</title>
 </head>
 
-<header>
-    <h1>Bread Recipes You Knead to Try!</h1>
-</header>
-
-
-<ul class="TOC">
-    <li><a>Home</a></li>
-    <li><a>Recipes</a></li>
-    <li><a>About</a></li>
-</ul>
-
 <body>
+    <header>
+        <h1>Bread Recipes You Knead to Try!</h1>
+    </header>
+
+
+    <ul class="TOC">
+        <li><a href="/">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a>About</a></li>
+    </ul>
+
 
     <h2>Classic French Loaf</h2>
-    <img src="./final-loaf.jpeg" alt="picture of final bread loaf" style="height:300px;width:400px;">
+    <img src="assets/final-loaf.jpeg" alt="picture of final bread loaf" style="height:300px;width:400px;">
+    <div class="centerText">
     <p id="myNote">
-        <i>Note: This recipe can be created either with a starter or with standard yeast. In this example we'll be using
-            standard
-            yeast.</i>
+        Note: This recipe can be created either with a starter or with standard yeast. In this example we'll be using
+        standard yeast.
     </p>
+</div>
     <br>
     <button type="button" onclick="myFunction()">Note</button>
     <br>
     <br>
-    <i class="fa-solid fa-bread-slice"></i>
+    <i class="fa-solid fa-bread-slice icon"></i>
     <br>
     <br>
     <div class="myDiv">
@@ -56,16 +57,17 @@
     <button id="myBtn">Metric Converter</button>
     <div id="myModal" class="modal">
         <div class="modal-content">
+            <h3>Metric Conversion</h3>
             <span class="close">&times;</span>
             <p>Need help converting grams to pounds?</p>
             <label>Amount in Grams:</label>
             <input type="number" id="submission">
-            <button id="submit" onclick="poundconvert()">CONVERT!</button>
+            <button id="submit">CONVERT!</button>
             <p id="output"></p>
         </div>
     </div>
     <p>
-        <i class="fa-solid fa-bread-slice"></i>
+        <i class="fa-solid fa-bread-slice icon"></i>
     </p>
     <div class="olDiv">
         <h3>Instructions</h3>
@@ -82,7 +84,7 @@
                 mixing and it will eventually come together.</li>
             <li>After around 5 minutes of stirring, you should be left with a sticky glob of dough:</li>
             <p></p>
-            <img src="./dough-proof.jpeg" alt="picture of dough after mixing" style="height:400px; width:400px">
+            <img src="assets/dough-proof.jpeg" alt="picture of dough after mixing" style="height:400px; width:400px">
             <p></p>
             <li>Cover your mixing bowl with a loose towel and let it sit on the counter for 2 hours.</li>
             <li>At the 2 hour mark your dough should have risen quite a bit. Go ahead and punch it down, knead out any
@@ -104,7 +106,8 @@
                 is
                 preheated, your proofing basket dough should hopefully have risen as follows:</li>
             <br>
-            <img src="./proof-basket.jpeg" alt="picture of dough in proofing basket" style="height:400px; width:400px">
+            <img src="assets/proof-basket.jpeg" alt="picture of dough in proofing basket"
+                style="height:400px; width:400px">
             <br>
             <li>Carefully remove dough from proofing basket and place gently in Cast Iron pot. Place lid on pot and put
                 it
@@ -118,7 +121,7 @@
     </div>
 
     <p>
-        <i class="fa-solid fa-bread-slice"></i>
+        <i class="fa-solid fa-bread-slice icon"></i>
     </p>
 
     <div class="myDiv">
@@ -132,15 +135,17 @@
             parchment and place it all in the pot at once.</p>
         <p>Experiment with different types of flour. Different brands have different attributes</p>
     </div>
+
+
+    <br>
+    <br>
+    <footer>
+        <div class="noteDiv">
+            <p>Written and created by Ben the Bread Man!</p>
+            <p id="jsNote"></p>
+        </div>
+    </footer>
     <script src="./script.js"></script>
 </body>
-<br>
-<br>
-<footer>
-    <div class="noteDiv">
-        <p>Written and created by Ben the Bread Man!</p>
-        <p id="jsNote"></p>
-    </div>
-</footer>
 
 </html>
