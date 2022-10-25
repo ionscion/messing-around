@@ -154,6 +154,16 @@ label {
 
 .icon {
     color: azure;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+
+@keyframes test {
+    from {color:azure;}
+    to {color: darkorange;}
 }
 
 .centerText {
