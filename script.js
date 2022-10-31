@@ -11,6 +11,14 @@ var btn = document.getElementById("myBtn");
 
 var span = document.getElementsByClassName("close")[0]; /*what does the 0 mean here*/
 
+var notebtn = document.getElementById("notebtn");
+
+notebtn.onclick = function() {
+    document.getElementById("note-content").innerHTML= `After the initial cold rise overnight, shape the dough and place it in proofing
+    basket for an additional 1.5-2 hours while the oven is preheating. The dough will not have risen as much, but it will get significant
+    oven-spring due it being chilly. Trust me!`;
+}
+
 btn.onclick = function() {
     modal.style.display = "block";
 }
